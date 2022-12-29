@@ -1,0 +1,14 @@
+
+*JENKINS NOTIFICATION*
+```
+=========================
+Job name   = mondroo
+Build ID   = 123
+Job status = Rampung
+```
+*GIT PULL OUTPUT*
+```
+=========================
+mantapp pak eko
+```
+
