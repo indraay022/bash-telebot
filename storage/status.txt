@@ -1,25 +1,19 @@
-#!/bin/bash
-job_name=$(<storage/fullDisplayName)
-description=$(<storage/description)
-result=$(<storage/result)
-url=$(<storage/url)
-gitpull=$(<storage/gitpull)
-echo """
+
 𝙅𝙀𝙉𝙆𝙄𝙉𝙎 𝙉𝙊𝙏𝙄𝙁𝙄𝘾𝘼𝙏𝙄𝙊𝙉
 𝙅𝙤𝙗 𝙉𝙖𝙢𝙚
-\`$job_name\`
+`hoedhoed-fe-staging #6`
 
 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣
-\`$description\`
+`Started by GitLab push by Indra AY`
 
 𝘽𝙪𝙞𝙡𝙙 𝙍𝙚𝙨𝙪𝙡𝙩
-\`$result\`
+`SUCCESS`
 
 𝘽𝙪𝙞𝙡𝙙 𝙐𝙍𝙇
-$url
+https://jenkins.maaf.in/job/hoedhoed-fe-staging/6/
 
 𝙂𝙄𝙏 𝙋𝙐𝙇𝙇 𝙊𝙐𝙏𝙋𝙐𝙏
-\`\`\`
-$gitpull
-\`\`\`
-""" > storage/status.txt
+```
+
+```
+
